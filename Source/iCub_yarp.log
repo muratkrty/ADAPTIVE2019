@@ -1,0 +1,5 @@
+yarp connect /icub/camcalib640/left/out
+yarp detect
+yarp connect /icub/camcalib640/left/out /mycam
+yarpview /mycam &
+yarp connect /icub/camcalib640/left/out /mycam
